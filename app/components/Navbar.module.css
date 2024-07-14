@@ -1,0 +1,76 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+body {
+    @apply bg-[#2E2A27] m-0 p-0;
+}
+.image {
+    @apply w-6/12 ml-[1%];
+}
+.logo {
+    @apply w-[15%] mt-[1.5%] pl-[10%];
+
+    /*height: px;*/
+}
+.paragraph {
+    @apply text-[large];
+    font-family: Chilanka;
+}
+.list {
+    @apply inline-block mx-[15px] my-0 p-0.5;
+}
+.text {
+    @apply text-[100px] text-center h-[30vh];
+    background: #cfc31b;
+    background: linear-gradient(to right, #fccd71 0%, #fbf2e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+}
+nav {
+    @apply bg-white h-1/4;
+}
+.kolo {
+    @apply list-none overflow-hidden m-0 p-[5px];
+}
+li {
+    @apply float-left;
+}
+li a,
+.dropbtn {
+    @apply inline-block text-[black] text-center no-underline;
+
+    /*padding: 14px 16px;*/
+}
+
+/*li a:hover, .dropdown:hover .dropbtn {*/
+/*    background-color: red;*/
+/*}*/
+li.dropdown {
+    @apply inline-block p-[2%];
+}
+.dropdownContent {
+    @apply hidden absolute bg-white min-w-[160px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.2)] z-[1] text-[small] mt-[1%] rounded-[5px];
+}
+.dropdownContent a {
+    @apply text-[black] no-underline block text-left px-4 py-3 hover:text-[#785A28];
+}
+.dropdown:hover .dropdownContent {
+    @apply block;
+}
+.btns {
+    @apply flex list-none float-right mr-[10%] pt-[1%];
+
+    /*padding-left: 20%;*/
+}
+.login {
+    @apply border w-[100px] h-[30px] items-center content-center text-center text-[#785A28] mr-[2%] mr-[5%] p-[5%] rounded-[10px] border-solid border-[#785A28] hover:bg-[#F8B517] hover:text-[black] hover:border hover:border-solid hover:border-[#F8B517];
+}
+.signUp {
+    @apply w-[220px] h-[30px] bg-[#F8B517] items-center content-center text-center mr-[2%] mr-[5%] p-[5%] rounded-[10px];
+}
+.margin {
+    @apply ml-[5px];
+}
