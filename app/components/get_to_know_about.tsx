@@ -72,7 +72,7 @@ export default function Get_to_know_about(){
         </div>
            {/*why choose variance*/}
        <div className="text-white text-center  bg-black w-full  max-h-[836px]">
-            <div className=" grid grid-col-3 flex items-center justify-between gap-4">
+            <div className=" grid grid-col-3 items-center justify-between gap-4">
                 <div className="col-span-1 border border-indigo w-18 h-16">
                     <div className="row-span-1">
                         <Image src={""} width={50} height={50}/>
