@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     //
     <div className="container mx-auto  p-6 text-center items-center self-center pt-14 mt-16 text-black  font-['Trebuchet_MS']">
-      <p className="p-8 gap-4 text-7xl font-bold drop-shadow-2xl">
+      <p className="p-8 gap-4 text-7xl font-black drop-shadow-2xl">
         All-in-One Solution for
         <br /> Effortless Webinar Hosting
       </p>

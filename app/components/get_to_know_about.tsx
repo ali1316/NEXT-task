@@ -12,7 +12,7 @@ export default function Get_to_know_about(){
                 <h1 className="text-bold text-5xl font-sans text-center text-black">Get to Know V.Connct Webinar</h1>
                 <p className="p-2 text-center text-lg mt-2">Explore the seamless flow of V.connct webinars, ensuring a smooth experience for both hosts and participants.</p>
             </div>
-        <div className="container m-auto h-auto grid grid-cols-3 gap-8 w-9/12 content-center max-lg:grid-col-1 ">
+        <div className="container max-sm:grid-cols-1 m-auto h-auto grid grid-cols-3 gap-8 w-9/12 content-center  ">
             <div className="items-center justify-between gap-4 p-2" >
             <div className=" border border-black row-span-2 p-2 rounded-md">
                 <h2 className="text-bold text-3xl font-sans text-center	">Webinar Schedule</h2>
