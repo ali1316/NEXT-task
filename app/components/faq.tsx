@@ -71,10 +71,10 @@ export default function Accordion_comp() {
                 </AccordionItem>
             </Accordion>
         </div>
-            <div className="text-white text-center mx-auto bg-black w-full  md:h-[340px] pt-4 lg:pb-4 pt-8">
-                <p className="text-[#FFF4E5] text-center text-xl my-5 sm:my-16 font-extrabold sm:text-7xl">Ready to Elevate Your Webinars?</p>
-                <div className="container mx-auto text-white align-center text-center m-4 md:m-6 gap-6">
-                    <button className=" p-2 m-2 bg-[#F8B517] w-52 lg:p-4 rounded-md text-black">Buy Now</button>
+            <div className="text-white text-center mx-auto bg-black w-full  h-[340px] pt-4 lg:pb-4 md:pt-8">
+                <p className="text-[#FFF4E5] text-center text-xl mt-7 sm:my-16 font-extrabold sm:text-7xl">Ready to Elevate Your Webinars?</p>
+                <div className="container mx-auto text-white align-center text-center m-3 gap-6">
+                    <button className=" p-2 mt-6 bg-[#F8B517] w-52 lg:p-4 rounded-md text-black py-auto items-center">Buy Now</button>
                 </div>
             </div>
         </>
